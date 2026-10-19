@@ -1,0 +1,16 @@
+{
+  "name": "jihye-kr",
+  "owner": {
+    "name": "Jihye-kr"
+  },
+  "metadata": {
+    "description": "Jihye-kr의 Claude Code 플러그인 모음"
+  },
+  "plugins": [
+    {
+      "name": "gitflow",
+      "source": "./",
+      "description": "이슈 → 브랜치 → 커밋 → PR → 릴리스를 Git Flow 규칙(타입 + 이슈 번호)대로 처리하고, 커밋·PR 전에 lint/typecheck/build를 직접 실행하는 스킬"
+    }
+  ]
+}

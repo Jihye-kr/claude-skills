@@ -4,27 +4,42 @@
 
 ## 설치
 
+Claude Code에서 실행하세요.
+
+```
+/plugin install gitflow --marketplace Jihye-kr/gitflow
+```
+
+Claude Code 2.1.275보다 낮은 버전에서는 두 단계로 설치합니다.
+
+```
+/plugin marketplace add Jihye-kr/gitflow
+/plugin install gitflow@jihye-kr
+```
+
+### 업데이트
+
+```
+/plugin marketplace update jihye-kr
+```
+
+### 플러그인 없이 직접 설치
+
 ```bash
 git clone https://github.com/Jihye-kr/gitflow.git ~/gitflow-skill
 
 # 개인 설치 — 내 모든 프로젝트에 적용
-cp -r ~/gitflow-skill/gitflow ~/.claude/skills/
+cp -r ~/gitflow-skill/skills/gitflow ~/.claude/skills/
 
 # 프로젝트 설치 — 이 저장소를 쓰는 팀원 모두에게 적용 (설치 후 커밋)
-cp -r ~/gitflow-skill/gitflow <내 프로젝트>/.claude/skills/
+cp -r ~/gitflow-skill/skills/gitflow <내 프로젝트>/.claude/skills/
 ```
 
 설치 후 Claude Code를 새로 열면 적용됩니다.
 
-### 업데이트
-
-```bash
-cd ~/gitflow-skill && git pull && cp -r gitflow ~/.claude/skills/
-```
-
 ## 사용법
 
-이렇게 말하거나, `/gitflow`로 직접 실행하세요.
+이렇게 말하거나, `/gitflow:gitflow`(직접 설치했다면 `/gitflow`)로 직접 실행하세요.
 
 - "브랜치 만들어줘"
 - "커밋해줘"
@@ -66,7 +81,7 @@ develop   ← 통합
 
 ## 내 팀에 맞게 바꾸기
 
-[gitflow/SKILL.md](gitflow/SKILL.md)를 직접 수정하세요. 바꾸기 쉬운 부분은 이렇습니다.
+[skills/gitflow/SKILL.md](skills/gitflow/SKILL.md)를 직접 수정하세요. 바꾸기 쉬운 부분은 이렇습니다.
 
 - **타입 목록**: `## 타입` 표
 - **릴리스 주기 / 태그 형식**: `## 4. 릴리스 PR`
