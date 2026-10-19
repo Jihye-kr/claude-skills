@@ -1,4 +1,4 @@
-# claude-skills
+# gitflow
 
 [Claude Code](https://docs.claude.com/en/docs/claude-code)에서 쓰는 스킬 모음입니다.
 
@@ -13,13 +13,13 @@
 스킬 폴더를 `.claude/skills/` 아래에 복사하면 됩니다.
 
 ```bash
-git clone https://github.com/Jihye-kr/claude-skills.git
+git clone https://github.com/Jihye-kr/gitflow.git
 
 # 프로젝트에 설치 — 이 저장소를 쓰는 팀원 모두에게 적용
-cp -r claude-skills/gitflow <내 프로젝트>/.claude/skills/
+cp -r gitflow/gitflow <내 프로젝트>/.claude/skills/
 
 # 개인 설치 — 내 모든 프로젝트에 적용
-cp -r claude-skills/gitflow ~/.claude/skills/
+cp -r gitflow/gitflow ~/.claude/skills/
 ```
 
 프로젝트에 설치했다면 `.claude/skills/gitflow/`를 커밋해서 팀원과 공유하세요.
