@@ -6,7 +6,7 @@
 
 | 스킬 | 하는 일 |
 |---|---|
-| [gitflow](gitflow/SKILL.md) | 이슈 → 브랜치 → 커밋 → PR → 릴리스를 Git Flow 규칙(타입 + 이슈 번호)대로 처리하고, PR 전에 lint/typecheck/build를 직접 실행 |
+| [gitflow](gitflow/SKILL.md) | 이슈 → 브랜치 → 커밋 → PR → 릴리스를 Git Flow 규칙(타입 + 이슈 번호)대로 처리하고, 커밋·PR 전에 lint/typecheck/build를 직접 실행 |
 
 ## 설치
 
@@ -60,7 +60,7 @@ develop   ← 통합
 
 - 이슈가 없으면 이슈부터 만들자고 제안
 - PR base가 규칙에 맞는지 확인 (`hotfix/*` 외에는 main 직행 금지)
-- PR 전에 `lint` → `typecheck` → `build` 실행. 실패하면 PR을 열지 않음
+- 커밋·PR 전에 `lint` → `typecheck` → `build` 실행. 실패하면 커밋·PR을 하지 않음
 - 저장소의 PR 템플릿을 채우고, 확인 안 된 항목이 있으면 Draft로 생성
 - 커밋·PR에 Claude가 작업했다는 표시를 넣지 않음
 
