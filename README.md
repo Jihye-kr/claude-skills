@@ -1,6 +1,7 @@
 # gitflow
 
-이슈 → 브랜치 → 커밋 → PR → 릴리스를 Git Flow 규칙(타입 + 이슈 번호)대로 처리하는 [Claude Code](https://docs.claude.com/en/docs/claude-code) 스킬입니다. 커밋·PR 전에 lint / typecheck / build를 직접 실행합니다.
+이슈 → 브랜치 → 커밋 → PR → 릴리스를 Git Flow 규칙(타입 + 이슈 번호)대로 처리하는 [Claude Code](https://docs.claude.com/en/docs/claude-code) 스킬입니다. 
+커밋·PR 전에 lint / typecheck / build를 직접 실행합니다.
 
 ## 설치
 
