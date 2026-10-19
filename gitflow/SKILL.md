@@ -1,6 +1,6 @@
 ---
 name: gitflow
-description: 이슈 → 브랜치 → 커밋 → PR → 릴리스까지 팀 Git Flow 규칙(타입 + 이슈 번호)대로 처리하고, PR 전에 lint/typecheck/build를 직접 돌린다. "브랜치 만들어줘", "커밋해줘", "PR 올려줘", "릴리스 PR 만들어줘", "핫픽스 해줘"라고 할 때 사용.
+description: 이슈 → 브랜치 → 커밋 → PR → 릴리스까지 팀 Git Flow 규칙(타입 + 이슈 번호)대로 처리하고, 커밋·PR 전에 lint/typecheck/build를 직접 돌린다. "브랜치 만들어줘", "커밋해줘", "PR 올려줘", "릴리스 PR 만들어줘", "핫픽스 해줘"라고 할 때 사용.
 ---
 
 # gitflow
